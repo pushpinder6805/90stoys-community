@@ -1,0 +1,99 @@
+div.hero::after{
+    content: "Welcome to the Rediscover 90s Toys Community";
+}
+
+#main-outlet-wrapper {
+background: none;
+background-repeat: no-repeat;
+}
+
+.category-logo.aspect-image img {
+    width: 80px;
+    height: 80px;
+    margin-right: 1em;
+}
+
+.category-list tbody tr {
+    margin-bottom: 20px; /* Adjust the value as needed */
+    display: block; /* Ensure the margin is applied */
+}
+
+.category-logo.aspect-image {
+    float: left;
+    margin: -1em 0em 0em 0 !important;
+}
+
+.category-description {
+    margin-top: 2.5em !important;
+}
+
+tr[data-category-id="4"] .category-description {
+    margin-left: -10.5em !important;
+}
+
+tr[data-category-id="2"] .category-description {
+    margin-left: -8.2em !important;
+}
+
+tr[data-category-id="5"] .category-description {
+    margin-left: -8.5em !important;
+}
+
+tr[data-category-id="6"] .category-description {
+    margin-left: -3.5em !important;
+}
+
+tr[data-category-id="7"] .category-description {
+    margin-left: -7em !important;
+}
+
+tr[data-category-id="8"] .category-description {
+    margin-left: -9.5em !important;
+}
+
+tr[data-category-id="9"] .category-description {
+    margin-left: -8.5em !important;
+}
+
+tr[data-category-id="10"] .category-description {
+    margin-left: -8em !important;
+}
+
+tr[data-category-id="11"] .category-description {
+    margin-left: -4em !important;
+}
+
+tr[data-category-id="12"] .category-description {
+    margin-left: -8em !important;
+}
+
+tr[data-category-id="14"] .category-description {
+    margin-left: -10em !important;
+}
+
+tr[data-category-id="15"] .category-description {
+    margin-left: -7em !important;
+}
+
+tr[data-category-id="16"] .category-description {
+    margin-left: -7.5em !important;
+}
+
+tr[data-category-id="17"] .category-description {
+    margin-left: -5.6em !important;
+}
+
+tr[data-category-id="18"] .category-description {
+    margin-left: -8.6em !important;
+}
+
+tr[data-category-id="3"] .category-description , .category-name{
+    margin-left: -2.8em !important;
+}
+
+tr[data-category-id="3"] .category-name{
+    margin-left: 3.6em !important;
+}
+ .category-name {
+    margin-left: 94px !important;
+}
