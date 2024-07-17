@@ -1,4 +1,51 @@
+//Desktop css 90stoys community//
+//pinder.chaudhary@gmail.com//
+//17-07-2024//
 
+.btn-social {
+    width: 115%;
+}
+
+tr[data-category-id="14"]::before {
+    content: "TOY CHAT";
+    font-size: 0.8706em;
+    display: block; /* Optional: Ensures it appears on its own line */
+    margin-bottom: 5px; /* Optional: Adds space between the text and the link */
+    color: white; /* Optional: Adds color to the text */
+}
+
+tr[data-category-id="10"]::before {
+    content: "GAMES";
+    font-size: 0.8706em;
+    display: block; /* Optional: Ensures it appears on its own line */
+    margin-bottom: 5px; /* Optional: Adds space between the text and the link */
+    margin-top: 5px;
+    color: white; /* Optional: Adds color to the text */
+}
+
+tr[data-category-id="2"]::before {
+    content: "SUPPORT";
+    font-size: 0.8706em;
+    display: block; /* Optional: Ensures it appears on its own line */
+    margin-bottom: 5px; /* Optional: Adds space between the text and the link */
+    color: white; /* Optional: Adds color to the text */
+}
+
+#categories-only-category {
+  visibility: hidden;
+  position: relative;
+  
+  &::after {
+    content: "Community";
+    text-transform: uppercase;
+    font-size: 0.8706em;
+    color: white;
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
 
 #main-outlet-wrapper {
 background: none;
@@ -46,7 +93,7 @@ tr[data-category-id="7"] .category-description {
 }
 
 tr[data-category-id="8"] .category-description {
-    margin-left: -9.5em !important;
+    margin-left: -10em !important;
 }
 
 tr[data-category-id="9"] .category-description {
@@ -78,7 +125,7 @@ tr[data-category-id="16"] .category-description {
 }
 
 tr[data-category-id="17"] .category-description {
-    margin-left: -5.6em !important;
+    margin-left: -8em !important;
 }
 
 tr[data-category-id="18"] .category-description {
