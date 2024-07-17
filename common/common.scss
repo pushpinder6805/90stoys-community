@@ -3,23 +3,7 @@
 //17-07-2024//
 
 
-.custom-header-links .headerLink a {
-  display: block;
-  padding: 4px 10px;
-  color: #222222;
-  font-size: 16px;
-  border: 1px solid black;
-  border-radius: 12px;
-  margin-right: 5px;
-  background-color: white;
-  height: 33px;
-  width: 80px;
-  text-align: center;
-}
 
-.custom-header-links {
-  margin-top: 5px;
-}
 
 .d-header .login-button,
 .d-header .sign-up-button {
@@ -35,9 +19,7 @@
 
 
 
-#site-logo {
-    height: 4.5em !important;
-}
+
 
 .d-header {
     height: 5em;
@@ -75,7 +57,7 @@ td.category {
 .hero {
     background: #3164fa;
     background-image: url(https://community.90stoys.com/uploads/default/original/1X/37bbaba98f7df1ce071eec384deb41671baaa688.avif);
-    background-position: 50% 50%;
+    background-position: 62% -4%;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
