@@ -1,6 +1,18 @@
-tr[data-category-id="14"]::before {
-    content: "TOY CHAT";
-    font-size: 0.8706em;
-    margin-bottom: 5px; /* Optional: Adds space between the text and the link */
-    color: white; /* Optional: Adds color to the text */
-}
+.custom-header-links .headerLink a {
+
+    display: none;
+    padding: 4px 10px;
+    color: #222222;
+    font-size: 16px;
+    border-radius: 12px;
+    margin-right: 5px;
+    background-color: white;
+    height: 32px;
+    width: 78px;
+    text-align: center;
+    border: none;
+  }
+  
+  .custom-header-links {
+    margin-top: 5px;
+  }
