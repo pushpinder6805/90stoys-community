@@ -3,6 +3,45 @@
 //17-07-2024//
 
 
+
+.d-header .login-button,
+.d-header .sign-up-button {
+    border-radius: 12px;
+    background: white; /* Start with a transparent background */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.d-header .login-button:hover,
+.d-header .sign-up-button:hover {
+    background: white !important; /* Change background to white on hover */
+}
+
+.d-header {
+    height: 5em;
+}
+.d-header {
+    --tw-bg-opacity: 1;
+    background-color: rgb(99 52 146 / var(--tw-bg-opacity));
+}
+
+
+td.category {
+    display: flex;
+    align-items: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 1em;
+    border: solid 1px rgba(221, 221, 221, .15);
+    background-color: rgba(221, 221, 221, .05);
+    box-shadow: 0 0 0 1px #222;
+    color: #fff;
+}
+
+.category-list .topics {
+    display: none;
+}
+
+
 #site-logo {
     height: 4.5em !important;
 }
