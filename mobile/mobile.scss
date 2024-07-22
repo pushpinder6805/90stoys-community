@@ -2,6 +2,22 @@
 //pinder.chaudhary@gmail.com//
 //17-07-2024//
 
+#site-logo {
+    margin-left: -2px !important;
+}
+
+.custom-header-links .headerLink a {
+    margin-left: -30px;
+}
+
+.d-header-icons {
+    margin: 0 -8px 0 0em;
+}
+.icons.d-header-icons li {
+  margin: 0 -2px; /* Adjust the margin as needed */
+  padding: 0;
+}
+
 [data-category-id="4"] .category-logo.aspect-image {
     margin-left: -4em !important;}
     
