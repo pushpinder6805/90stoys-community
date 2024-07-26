@@ -3,26 +3,7 @@
 //17-07-2024//
 
 
-.hero {
-  background: #3164fa;
-  background-image: url('https://community.90stoys.com/uploads/default/original/1X/0c4e85ac1e9efbe2912c048c814c91b75dca92e1.png');
-  background-position: 50% -4%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  position: absolute;
-  right: 0;
-  top: 60px;
-  height: 406px;
-  overflow: hidden;
-}
 
-.hero-container {
-  min-height: 406px;
-}
 
 #site-logo {
     margin-left: -2px !important;
